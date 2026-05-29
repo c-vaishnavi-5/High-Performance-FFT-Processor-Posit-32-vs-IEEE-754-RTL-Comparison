@@ -47,10 +47,8 @@ Two fully pipelined FFT processors sharing an identical 3-stage, 12-butterfly ar
 
 ## Repository Structure
 
-- `rtl/` — Verilog HDL source files (Posit-32 and IEEE-754 cores)
-- `tb/` — Simulation testbenches and test vectors
-- `synthesis/` — Cadence Genus scripts, SDC constraints, and reports
-- `matlab/` — Reference output generation and accuracy metric scripts
+- `Floating/` — Verilog HDL source files of IEEE-754 core)
+- `posit/` — Verilog HDL source files of posit<32,2> core)
 
 ## Academic Context
 
